@@ -1,0 +1,15 @@
+$theme-colors: (
+  "primary": #1481BA,
+  "secondary": #CAD8DE,
+  "success": #0C7C59,
+  "danger": #AD5D4E,
+  "light": #B6D6CC,
+  "dark": #2B303A,
+);
+
+body {
+  font-family: 'Outfit', sans-serif !important;
+}
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
