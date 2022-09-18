@@ -4,7 +4,7 @@ export default function About() {
     <div id="about" class="container pt-5">
       <div class="row">
         <div class="col align-self-center pt-5">
-          <img src="jake_portrait.webp" class="rounded float-start" width={"500em"} alt="Jake" ></img>
+          <img src="/images/jake_portrait.webp" class="rounded float-start" width={"500em"} alt="Jake" ></img>
         </div>
         <div class="col align-self-center pt-5">
           <h2> About Me </h2>

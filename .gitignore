@@ -30,4 +30,4 @@ yarn-error.log*
 .env.production.local
 
 /src/back_end
-index.js
+./index.js

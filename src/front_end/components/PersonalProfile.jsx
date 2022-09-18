@@ -6,7 +6,7 @@ export default function PersonalProfile() {
       <h2 class="pt-5 pb-2"> Personal Profile </h2>
         <div class="col">
         <h3>Charity and Volunteer Work</h3>
-          <div class="accordion pt-2" id="accordionExample">
+          <div class="accordion pt-2" id="accordion1">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -27,7 +27,7 @@ export default function PersonalProfile() {
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                   College Student's Union
                 </button>
               </h2>
@@ -42,7 +42,7 @@ export default function PersonalProfile() {
             <div class="accordion-item">
             
               <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 Duke of Edinburgh
                 </button>
               </h2>
@@ -57,7 +57,7 @@ export default function PersonalProfile() {
         </div>
         <div class="col">
           <h3>Achievements</h3>
-          <div class="accordion pt-2" id="accordionExample">
+          <div class="accordion pt-2" id="accordion2">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingFour">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
@@ -72,7 +72,7 @@ export default function PersonalProfile() {
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingFive">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                   Piano, Saxophone and Music Theory
                 </button>
               </h2>
@@ -111,7 +111,7 @@ export default function PersonalProfile() {
       </div>
       <div class="col">
       <h3>Work Experience</h3>
-          <div class="accordion pt-2" id="accordionExample">
+          <div class="accordion pt-2" id="accordion3">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingSix">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
@@ -150,7 +150,7 @@ export default function PersonalProfile() {
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingEight">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
                   Barista at Costa Coffee UK&I
                 </button>
               </h2>
@@ -172,7 +172,7 @@ export default function PersonalProfile() {
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingNine">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
                   Saturday Worker at All Blokes Ltd
                 </button>
               </h2>
@@ -191,7 +191,7 @@ export default function PersonalProfile() {
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingTen">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
                 IT Support Work Experience at Exterion Media Ltd
                 </button>
               </h2>
@@ -204,7 +204,7 @@ export default function PersonalProfile() {
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingEleven">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
                 Bespoke PC Building at Credit Management Ltd
                 </button>
               </h2>
