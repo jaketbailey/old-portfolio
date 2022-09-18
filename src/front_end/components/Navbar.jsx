@@ -4,7 +4,9 @@ export default function Navbar () {
   return (
     <nav class="navbar navbar-expand-lg bg-light fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Jake Bailey</a>
+      <a class="navbar-brand" href="#">
+        Jake Bailey
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -23,8 +25,18 @@ export default function Navbar () {
             <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
+        <span class="navbar-text me-4">
+          Placement Software Engineer at BAE Systems
+        </span>
+        <a class="me-3 nav-item" href="https://www.linkedin.com/in/jaketbailey/" target="_blank">
+              <img alt="LinkedIn" src="/images/linkedin.webp" height="25px" width="25px" class="nav-link"/>
+        </a>
+
+        <a class="me-3 nav-item" href="https://www.github.com/jaketbailey/" target="_blank">
+            <img alt="GitHub" src="/images/github.webp" height="25px" width="25px" class="nav-link"/>
+        </a>
       </div>
-    </div>
+    </div><br/>
   </nav>
   )
 }
