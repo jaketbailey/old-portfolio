@@ -96,7 +96,7 @@ export default function PersonalProfile() {
           <li class="list-group-item">Node.js</li>
           <li class="list-group-item">PostgreSQL</li>
           <li class="list-group-item">React</li>
-          <li class="list-group-item">Vue</li>
+          <li class="list-group-item">Vue.js</li>
           <li class="list-group-item">Next.js</li>
           <li class="list-group-item">REST API</li>
           <li class="list-group-item">Express.js</li>

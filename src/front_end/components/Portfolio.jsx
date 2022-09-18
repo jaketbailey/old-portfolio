@@ -172,9 +172,9 @@ export default function Portfolio() {
         </div>
         <div class="col mt-2">
           <div class="card w-10">
-            <div class="ratio ratio-16x9 ">
+            {/* <div class="ratio ratio-16x9 ">
               <iframe class="card-img-top " src="/videos/LEJOG.webm" autoplay="false" title="LEJOG News Report" allowFullScreen/>
-            </div>
+            </div> */}
             <div class="card-body">
             <h5 class="card-title">Land's End to John O'Groats 2016</h5>
               In 2016 I cycled from Land's End to John O'Groats to raise money for charity. I raised a total of £7,300 which was then split between 3 charities: Autoimmune Alopecia Research UK, Birmingham Children's Hospital and Sandwell Young Carers. <br/>
