@@ -1,9 +1,10 @@
 
 export default function Portfolio() {
+  
   return (
     <div id="portfolio" class="container pt-5">
       <h3 class="pt-5">Portfolio</h3>
-      <div class="row row-cols-3 pt-2 justify-content-center">
+      <div class="row pt-2 justify-content-center">
         <div class="col">
           <div class="card w-10">
             <img src="/images/blockshop.webp" class="card-img-top" alt="Lego© Store Project"/>
@@ -103,7 +104,7 @@ export default function Portfolio() {
                 from bash using commands like cd to navigate directories etc. I have plans to continue on with this project, but for now it
                 can connect with an FTP server using the details the user can input. <br/>It also has support for TLS/SSL encryption and for FTP
                 servers hosted on different ports. It can also currently navigate through directories.<br/> All the code for the project is viewable on my 
-                <a href="https://github.com/jaketbailey/ftp-client" target="_blank">GitHub</a>.
+                <a href="https://github.com/jaketbailey/ftp-client" target="_blank"> GitHub</a>.
               </p>
               <button class="btn btn-primary mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#card5" aria-expanded="false" aria-controls="collapseExample">
                 Read More
