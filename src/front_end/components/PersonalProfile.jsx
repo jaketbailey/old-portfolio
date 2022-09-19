@@ -1,10 +1,10 @@
 
 export default function PersonalProfile() {
   return (
-  <div id="personal-profile" class="container">
+    <div id="personal-profile" class="container">
     <div class="row pt-5">
       <h2 class="pt-5 pb-2"> Personal Profile </h2>
-        <div class="col">
+      <div class="col col-sm-12 col-md-12 col-lg-6">
         <h3>Charity and Volunteer Work</h3>
           <div class="accordion pt-2" id="accordion1">
             <div class="accordion-item">
@@ -38,7 +38,6 @@ export default function PersonalProfile() {
                 </div>
               </div>
             </div>
-
             <div class="accordion-item">
             
               <h2 class="accordion-header" id="headingThree">
@@ -55,7 +54,8 @@ export default function PersonalProfile() {
             </div>
           </div>
         </div>
-        <div class="col">
+      </div>
+        <div class="col col-sm-12 col-md-12 col-lg-6 mt-3">
           <h3>Achievements</h3>
           <div class="accordion pt-2" id="accordion2">
             <div class="accordion-item">
@@ -83,10 +83,7 @@ export default function PersonalProfile() {
               </div>
             </div>
           </div>
-        </div>
-    </div>
-    <div class="row pt-5">
-      <div class="col">
+      <div class="col col-sm-12 col-md-12 col-lg-6 mt-3">
         <h3>Skills</h3>
         
         <ul class="list-group pt-2">
@@ -109,7 +106,7 @@ export default function PersonalProfile() {
           <li class="list-group-item">Bespoke PC Building</li>
         </ul>
       </div>
-      <div class="col">
+      <div class="col col-sm-12 col-md-12 col-lg-6 mt-3">
       <h3>Work Experience</h3>
           <div class="accordion pt-2" id="accordion3">
             <div class="accordion-item">

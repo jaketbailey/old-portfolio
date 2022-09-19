@@ -2,10 +2,10 @@
 export default function Portfolio() {
   
   return (
-    <div id="portfolio" class="container pt-5">
+    <div id="portfolio" class="container mt-3">
       <h3 class="pt-5">Portfolio</h3>
       <div class="row pt-2 justify-content-center">
-        <div class="col">
+        <div class="col col-sm-12 col-md-12 col-lg-6 col-xxl-4 mt-3">
           <div class="card w-10">
             <img src="/images/blockshop.webp" class="card-img-top" alt="Lego© Store Project"/>
             <div class="card-body">
@@ -28,7 +28,7 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col col-sm-12 col-md-12 col-lg-6 col-xxl-4 mt-3">
           <div class="card w-10">
             <img src="/images/floodx.webp" class="card-img-top" alt="FloodX"/>
             <div class="card-body">
@@ -56,7 +56,7 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col col-sm-12 col-md-12 col-lg-6 col-xxl-4 mt-3">
           <div class="card w-10">
             <img src="/images/scrabble.webp" class="card-img-top" alt="Scrabble Project"/>
             <div class="card-body">
@@ -75,7 +75,7 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col col-sm-12 col-md-12 col-lg-6 col-xxl-4 mt-3">
           <div class="card w-10">
             <img src="/images/http.webp" class="card-img-top" alt="HTTP Status Checker"/>
             <div class="card-body">
@@ -93,7 +93,7 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-        <div class="col mt-2">
+        <div class="col col-sm-12 col-md-12 col-lg-6 col-xxl-4 mt-3">        
           <div class="card w-10">
             <img src="/images/FTP.webp" class="card-img-top" alt="FTP Client"/>
             <div class="card-body">
@@ -112,7 +112,7 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-        <div class="col mt-2">
+        <div class="col col-sm-12 col-md-12 col-lg-6 col-xxl-4 mt-3">
           <div class="card w-10">
             <img src="/images/jake.webp" class="card-img-top" alt="Old Portfolio"/>
             <div class="card-body">
@@ -131,7 +131,7 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-        <div class="col mt-2">
+        <div class="col col-sm-12 col-md-12 col-lg-6 col-xxl-4 mt-3">
           <div class="card w-10">
             <img src="/images/heidi.webp" class="card-img-top" alt="Heidi Portfolio"/>
             <div class="card-body">
@@ -150,7 +150,7 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-        <div class="col mt-2">
+        <div class="col col-sm-12 col-md-12 col-lg-6 col-xxl-4 mt-3">
           <div class="card w-10">
             <img src="/images/Menu.png" class="card-img-top" alt="A Level Coursework"/>
             <div class="card-body">
@@ -171,7 +171,7 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-        <div class="col mt-2">
+        <div class="col col-sm-12 col-md-12 col-lg-6 col-xxl-4 mt-3">
           <div class="card w-10">
             {/* <div class="ratio ratio-16x9 ">
               <iframe class="card-img-top " src="/videos/LEJOG.webm" autoplay="false" title="LEJOG News Report" allowFullScreen/>
