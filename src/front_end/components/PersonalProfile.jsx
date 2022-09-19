@@ -54,16 +54,42 @@ export default function PersonalProfile() {
               </div>
             </div>
           </div>
-          <div class="col col-sm-12 col-md-6 col-lg-6 mt-3">
+          <div class="col col-sm-12 col-md-6 col-lg-6">
             <h3>Achievements</h3>
             <div class="accordion pt-2" id="accordion2">
               <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwelve">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="true" aria-controls="collapseTwelve">
+                  Placement position at BAE Systems
+                  </button>
+                </h2>
+                <div id="collapseTwelve" class="accordion-collapse collapse show" aria-labelledby="headingTwelve" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    In November 2021 I got confirmation that I was successful in achieving a Software Engineering industrial placement at BAE Systems as part of Naval Ships.<br/>
+                    I have since then started my placement learning Vue (another Javascript framework) as well as working with python again and Learning the basics of MATLAB.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThirteen">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="true" aria-controls="collapseThirteen">
+                  First and Second Year University
+                  </button>
+                </h2>
+                <div id="collapseThirteen" class="accordion-collapse collapse show" aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    I have progressed at university with an overall first for both my first and second years studying Software Engineering.<br/>
+                    At university I have developed my skills further in the fields of web development, database management, cyber security and agile development.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
                 <h2 class="accordion-header" id="headingFour">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                     A Levels at NSCG Stafford College
                   </button>
                 </h2>
-                <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
                     In 2020 I completed my A Levels in Computer Science, Psychology and Maths with my highest grade being an A in Computer Science. I have since progressed onto my first year of a BSc(Hons) Course in Software Engineering at the University of Portsmouth. I have recently progressed onto second year at University having passed my first year with an average of 70.75% across modules. In 2018 I completed my GCSEs with a set of very high grades ranging from graded 8-5. Aged 15 I successfully applied for and completed a prefect role at my school. In Year 10 I completed the Duke of Edinburgh Bronze Level Award, When involved I committed to volunteer work as well as doing a continuous activity and pursuing my interests further. The Award also included an expedition as well as two training expeditions where I further developed my team and leadership skills.
                   </div>
@@ -106,7 +132,7 @@ export default function PersonalProfile() {
             <li class="list-group-item">Bespoke PC Building</li>
           </ul>
         </div>
-        <div class="col col-sm-12 col-md-12 col-lg-6 mt-3">
+      <div class="col col-sm-12 col-md-12 col-lg-6 mt-3"> 
         <h3>Work Experience</h3>
             <div class="accordion pt-2" id="accordion3">
               <div class="accordion-item">

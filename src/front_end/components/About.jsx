@@ -9,10 +9,13 @@ export default function About() {
         <div class="col align-self-center col col-sm-12 col-md-12 col-lg-6 pt-5">
           <h2> About Me </h2>
             <p>
-              I am an outgoing and self-motivated student and employee. I have recently achieved A-level Computer Science, Psychology and Maths. I am currently studying for a BSc(Hons) in Software Engineering at the University of Portsmouth.
+              I am an outgoing and self-motivated student and employee. In June, I started my industrial placement as a Naval Ships Software Engineer at BAE Systems working with technologies such as Vue.js and MATLAB.
             </p>
             <p>
-              I am also learning the programming language 'Go' by Google at home to extend my programming skills further. In the summer this year I am going to start learning the C programming language and TypeScript alongside Go both in preparation for Year 2 at university, but to also start some of my own projects other then work set for my course.
+              I am currently studying for a BSc(Hons) in Software Engineering at the University of Portsmouth, in my 3rd (Placement Year) of my 4 year course.
+            </p>
+            <p>
+              Outside of work, I redeveloped my Portfolio site using Next.js, Bootstrap and Express.js, further developing my current skills within web development.
             </p>
             <p>
               In addition one of my interests is road cycling which helped me raise £7,300 for 3 local charities by cycling Lands End to John O'Groats in 12 days in 2016.
