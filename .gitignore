@@ -9,7 +9,7 @@
 /coverage
 
 # next.js
-/src/front_end/.next/
+.next
 /out/
 
 # production
@@ -30,4 +30,5 @@ yarn-error.log*
 .env.production.local
 
 /src/back_end
+./src/front_end/.next
 ./index.js
