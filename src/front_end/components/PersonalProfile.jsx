@@ -7,13 +7,28 @@ export default function PersonalProfile() {
         <div class="col col-sm-12 col-md-6 col-lg-6">
           <h3>Charity and Volunteer Work</h3>
             <div class="accordion pt-2" id="accordion1">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFourteen">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourteen" aria-expanded="true" aria-controls="collapseFourteen">
+                    Graduate Induction - BAE Systems
+                  </button>
+                </h2>
+                <div id="collapseFourteen" class="accordion-collapse collapse show" aria-labelledby="headingFourteen" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    During my first month at BAE Systems, I volunteered to aid the early careers team based in Glasgow, Scotland with arranging the Graduate Immersion Induction for the September Intake.
+                    I was tasked to liase with the new starters to arrange flights and hotel stays for the time they would spend in Glasgow for the Induction. Along with arranging their flights, I would also
+                    join them in travelling up to Glasgow to assist with the actual event itself. I acted as the first point of contact to eight new graduate starters for around one month and a half before they joined the business.
+                    Once I was in Glasgow, I then helped the early careers team in conducting the 3-day long in-person induction. <a href="https://www.linkedin.com/feed/update/urn:li:activity:6972555268836446208/" target="_blank">See Here.</a>
+                  </div>
+                </div>
+              </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     Land's End to John O'Groats Charity Ride
                   </button>
                 </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
                     As a committed individual, taking pride in my 100% commitment to any task or interest. 
                     An example of this is that I have been raising money for charity from a very young age. In 2016, after 2 years of training, 
