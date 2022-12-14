@@ -160,8 +160,9 @@ export default function PersonalProfile() {
                   <div class="accordion-body">
                     <strong>June 2022 - Present</strong><br/>
                     <ul class="list-group pt-2">
+                      <li class="list-group-item">Developing an analyst tool using MATLAB</li>
                       <li class="list-group-item">Working with Javascript web frameworks such as Vue</li>
-                      <li class="list-group-item">Agile Software Development</li>
+                      <li class="list-group-item">Agile Software Development utilising the Atlassian Suite</li>
                       <li class="list-group-item">Understanding client needs and requirements</li>
                     </ul>
                   </div>
