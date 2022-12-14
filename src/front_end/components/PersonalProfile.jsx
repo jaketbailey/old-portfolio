@@ -138,6 +138,7 @@ export default function PersonalProfile() {
             <li class="list-group-item">Next.js</li>
             <li class="list-group-item">REST API</li>
             <li class="list-group-item">Express.js</li>
+            <li class="list-group-item">MATLAB</li>
             <li class="list-group-item">Git</li>
             <li class="list-group-item">VB.NET</li>
             <li class="list-group-item">Python</li>
