@@ -66,7 +66,7 @@ const getProjects = () => {
             <a href="https://github.com/jaketbailey/scrabble-coursework" target="_blank"> GitHub</a>.
           `),
           new Project(
-            "/images/ftp.webp",
+            "/images/FTP.webp",
             "FTP Client",
             "Simple FTP Client",
             `This is a small scale project from when I was initially tinkering with Node.JS in 2020 during the COVID-19 Pandemic.</br>`,
