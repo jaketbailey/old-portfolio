@@ -1,4 +1,4 @@
-import PortfolioItem from './sub-components/PortfolioItem'
+import PortfolioItem from './sub-components/PortfolioItem.jsx'
 
 class Project {
   constructor(image, alt, title, description, content) {

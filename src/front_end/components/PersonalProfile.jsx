@@ -1,4 +1,4 @@
-import SkillCard from "./sub-components/skillCard"
+import SkillCard from "./sub-components/skillCard.jsx"
 
 class Skill {
   constructor(name, src) {
