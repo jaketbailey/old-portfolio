@@ -7,16 +7,18 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <div>
-        <Head>
-          <title>Jake Bailey</title>
-          <link rel="icon" href="/images/favicon.ico"/>
-        </Head>
-      <Navbar/>
-      <About/>
-      <PersonalProfile/>
-      <Portfolio/>
-      <Contact/>
-    </div>
+    <html data-bs-theme="dark">
+      <div>
+          <Head>
+            <title>Jake Bailey</title>
+            <link rel="icon" href="/images/favicon.ico"/>
+          </Head>
+        <Navbar/>
+        <About/>
+        <PersonalProfile/>
+        <Portfolio/>
+        <Contact/>
+      </div>
+    </html>
   );
 }
