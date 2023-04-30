@@ -173,6 +173,7 @@ export default function PersonalProfile() {
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingSix">
                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                    <img src="/images/bae-systems-2.webp" class="m-1" width={"55rem"} alt="BAE Systems Logo" />
                     Placement Software Engineer at BAE Systems
                   </button>
                 </h2>
@@ -191,6 +192,7 @@ export default function PersonalProfile() {
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingSeven">
                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                    <img src="/images/ocn.webp" class="m-1" width={"55rem"} alt="BAE Systems Logo" />
                     Freelance work for Open College Network West Midlands
                   </button>
                 </h2>
@@ -210,6 +212,7 @@ export default function PersonalProfile() {
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingEight">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                    <img src="/images/costa.webp" class="m-1" width={"55rem"} alt="BAE Systems Logo" />
                     Barista at Costa Coffee UK&I
                   </button>
                 </h2>
@@ -232,6 +235,7 @@ export default function PersonalProfile() {
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingNine">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+                    <img src="/images/blokes.webp" class="m-1" width={"55rem"} alt="BAE Systems Logo" />
                     Saturday Worker at All Blokes Ltd
                   </button>
                 </h2>
@@ -251,7 +255,8 @@ export default function PersonalProfile() {
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingTen">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
-                  IT Support Work Experience at Exterion Media Ltd
+                    <img src="/images/global.webp" class="m-1" width={"55rem"} alt="BAE Systems Logo" />
+                    IT Support Work Experience at Global
                   </button>
                 </h2>
                 <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
@@ -264,7 +269,8 @@ export default function PersonalProfile() {
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingEleven">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
-                  Bespoke PC Building at Credit Management Ltd
+                    <img src="/images/cm.webp" class="m-1" width={"55rem"} alt="BAE Systems Logo" />
+                    Bespoke PC Building at Credit Management Ltd
                   </button>
                 </h2>
                 <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample">

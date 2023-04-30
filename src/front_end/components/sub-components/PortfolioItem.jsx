@@ -9,7 +9,6 @@ export default function PortfolioItem (props) {
   const handleShow = () => setShow(true);
 
   const checkGithub = () => {
-    console.log(props.github)
     if (props.github != null) {
       return(
         <a href={props.github} target="_blank" class="btn btn-primary">View GitHub</a>
@@ -18,7 +17,6 @@ export default function PortfolioItem (props) {
   }
 
   const checkLink = () => {
-    console.log(props.link)
     if (props.link != null) {
       return(
         <a href={props.link} target="_blank" class="btn btn-primary">View Site</a>
@@ -33,11 +31,9 @@ export default function PortfolioItem (props) {
           <div class="card-body">
           <h5 class="card-title">{props.title}</h5>
             <Markup content={props.description} />
-          {/* <div class="card-body-content"> */}
             <button class="btn btn-primary mt-2 card-body-button" type="button" onClick={handleShow}>
               Read More
             </button>
-          {/* </div> */}
           </div>
         </div>
 
