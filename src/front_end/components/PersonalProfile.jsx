@@ -9,8 +9,10 @@ export default function PersonalProfile() {
       this.link = link;
     }
   }
-  
-  const getSkills = () => {
+    
+    const getSkills = () => {
+    const mathworksLogo = "https://user-images.githubusercontent.com/10817626/67014544-482be200-f0f5-11e9-8e74-3dd575c8ad83.png"
+    
     const skills = [
       new Skill("React.js", "https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/react-512.png", "https://reactjs.org/"),
       new Skill("Javascript", "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3209724/language-javascript-icon-md.png", "https://www.javascript.com/"),
@@ -20,9 +22,13 @@ export default function PersonalProfile() {
       new Skill("PostgreSQL", "https://icons-for-free.com/download-icon-postgresql-1324440215994540667_512.icns", "https://www.postgresql.org/"),
       new Skill("Vue.js", "https://icons-for-free.com/download-icon-bxl+vuejs-1325051940816489463_512.png", "https://vuejs.org/"),
       new Skill("Express.js", "/images/expressjs.png", "https://expressjs.com/"),
-      new Skill("MATLAB", "https://user-images.githubusercontent.com/10817626/67014544-482be200-f0f5-11e9-8e74-3dd575c8ad83.png", "https://www.mathworks.com/products/matlab.html"),
+      new Skill("MATLAB", mathworksLogo, "https://www.mathworks.com/products/matlab.html"),
       new Skill("Python", "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Python_icon_%28black_and_white%29.svg/1200px-Python_icon_%28black_and_white%29.svg.png", "https://www.python.org/"),
       new Skill("Git", "https://git-scm.com/images/logos/downloads/Git-Icon-Black.png", "https://git-scm.com/"),
+      new Skill("Simulink Model Management and Architecture", mathworksLogo, "https://matlabacademy.mathworks.com/progress/instructorled/share/certificate.html?id=30c7d4fb-0f44-47d0-9f21-ece0bfceaddb&"),
+      new Skill("Matlab Programming Techniques", mathworksLogo, "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=7cefce18-a9fe-49c2-9d82-79741c343bfe&"),
+      new Skill("MATLAB Fundamentals", mathworksLogo, "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=d167b7b2-1a23-4419-bb93-fc1641f38e85&&"),
+      new Skill("Matlab Onramp", mathworksLogo, "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=b9552bb3-61f6-4d08-97d3-a4b95a672824&"),
     ]
   
     return skills.map(skill => {
@@ -41,10 +47,10 @@ export default function PersonalProfile() {
     <div id="personal-profile" class="container">
       <h2 class="pt-5 pb-2"> Personal Profile </h2>
       <div class="row">
-      <h3 class>Skills</h3>
+      <h3 class>Skills and Certifications</h3>
           <div class="d-flex flex-wrap justify-content-center mb-5">
             {getSkills()}
-            </div>
+          </div>
         <div class="flex-column col-sm-12 col-md-6 col-lg-6">
           <h3>Charity and Volunteer Work</h3>
             <div class="accordion pt-2" id="accordion1">
