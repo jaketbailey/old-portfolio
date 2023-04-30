@@ -8,8 +8,8 @@
   //   "dark": #2B303A,
   // );
   
-  $primary:       #19bc94 !default;
-  $secondary:     #F6F7F8 !default;
+$primary:       #19bc94 !default;
+$secondary:     #F6F7F8 !default;
 $success:       #0C7C59 !default;
 $info:          #20A4F3 !default;
 $warning:       #F2E11F !default;
@@ -58,6 +58,11 @@ body {
 .skill-icon {
   width: 2rem;
   padding-right: 0.5rem;
+}
+
+.skill-link {
+  color: #011627;
+  text-decoration: none;
 }
 
 // X-Small devices (portrait phones, less than 576px)
