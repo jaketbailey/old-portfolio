@@ -39,11 +39,19 @@ body {
 
 .card {
   width:25rem;
+  height: 27rem;
+}
+
+.card-body-button {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
 }
 
 .skill-card {
   margin: 0.25rem;
   width: fit-content;
+  height:fit-content
 }
 
 .skill-card:hover {

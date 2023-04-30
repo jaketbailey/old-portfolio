@@ -1,12 +1,14 @@
 import PortfolioItem from './sub-components/PortfolioItem.jsx'
 
 class Project {
-  constructor(image, alt, title, description, content) {
+  constructor(image, alt, title, description, content, link, github) {
     this.image = image;
     this.alt = alt;
     this.title = title;
     this.description = description;
     this.content = content;
+    this.link = link;
+    this.github = github;
   }
 }
 
@@ -27,8 +29,30 @@ const getProjects = () => {
         e.g. shipping address etc. Each customer could make multiple orders once another was fullfilled (once an order
         had been processed through checkout). In the end I received a final grade of 77, which is a high first for this
         module. <br/> All the source code is viewable on my 
-        <a href="https://github.com/jaketbailey/app-eng-lego" target="_blank"> GitHub</a>
-      `),
+      `,
+      null,
+      "https://github.com/jaketbailey/app-eng-lego",
+      ),
+      new Project(
+        "/images/heidi-portfolio-new.webp",
+        "Heidi Portfolio",
+        "Updated Portfolio Site",
+        `I was asked by my sibling to re-create their portfolio website to include a complete redesign and updated content.</br>`,
+        `
+          I was asked by my sibling to re-create their portfolio website to include a complete redesign and updated content.</br><br/>
+          
+          I used Next.js to create a static site that would be hosted on a cloud server and 
+          I used Bootstrap to create a responsive design that would work on all devices. <br/><br/>
+          
+          The original website I created was a static site that was hosted on a cloud server developed using HTML, CSS and JavaScript.
+          I wanted to develop my skills further and use a framework to create a more responsive and dynamic site. <br/><br/>
+
+          This allowed me to use React components to create a more modular site that would be easier to maintain and update 
+          whilst developing my knowledge further using Bootstrap and integrating classes into the code.<br/><br/>
+        `,
+        "https://heidibailey.co.uk",
+        "https://github.com/jaketbailey/heidi-portfolio-new"
+        ),
       new Project(
         "/images/floodx.webp",
         "FloodX",
@@ -62,9 +86,11 @@ const getProjects = () => {
             the user to play online multiplayer using lobbys to connect to each others game rather than just making a single player
             local game.<br/><br/> 
             I have managed to program a working online multiplayer game of scrabble using websockets to allow the multiplayer lobbies
-            to function. All the code for the project is viewable on my 
-            <a href="https://github.com/jaketbailey/scrabble-coursework" target="_blank"> GitHub</a>.
-          `),
+            to function.
+          `,
+          null,
+          "https://github.com/jaketbailey/scrabble-coursework",
+          ),
           new Project(
             "/images/FTP.webp",
             "FTP Client",
@@ -76,9 +102,11 @@ const getProjects = () => {
               from bash using commands like cd to navigate directories etc. <br/><br/>
               I have plans to continue on with this project, but for now it
               can connect with an FTP server using the details the user can input. <br/>It also has support for TLS/SSL encryption and for FTP
-              servers hosted on different ports. It can also currently navigate through directories.<br/><br/> All the code for the project is viewable on my 
-              <a href="https://github.com/jaketbailey/ftp-client" target="_blank"> GitHub</a>.
-            `),
+              servers hosted on different ports. It can also currently navigate through directories.
+            `,
+            null,
+            "https://github.com/jaketbailey/ftp-client",
+            ),
             new Project(
               "/images/jake.webp",
               "Old Portfolio",
@@ -89,9 +117,11 @@ const getProjects = () => {
                 As I had more time during the lockdown in 2020, I chose to make this website from scratch and host it all myself. 
                 In making the website it allowed me to extend my skills coding in HTML, CSS, Javascript and Node.js.<br/><br/>
                 Since making the original website I have updated it multiple times and I am always trying to make it better
-                every time. I use this for all my projects, contact details as well as an online CV. <br/><br/>All the code for the project is viewable on my 
-                <a href="https://github.com/jaketbailey/website" target="_blank"> GitHub</a>.
-              `),
+                every time. I use this for all my projects, contact details as well as an online CV.
+              `,
+              null,
+              "https://github.com/jaketbailey/website"
+              ),
               new Project(
                 "/images/heidi.webp",
                 "Heidi Old Portfolio",
@@ -102,9 +132,11 @@ const getProjects = () => {
                   As I had more time during the lockdown in 2020, I chose to make this website from scratch and host it all myself. 
                   It is a similar website to my original portfolio site, with a different colour scheme and content. <br/><br/>They use this website as a portfolio and
                   online CV, any updates they needs to the website I will add and manage. I will also add any of their current
-                  work to the website if and when necessary. <br/><br/>You can see their website <a href="https://heidibailey.co.uk" target="_blank">Here</a> and all the code for the project is viewable on my 
-                  <a href="https://github.com/jaketbailey/heidi-portfolio" target="_blank" > GitHub</a>.
-                `),
+                  work to the website if and when necessary.
+                `,
+                null,
+                "https://github.com/jaketbailey/heidi-portfolio",
+                ),
                 new Project(
                   "/images/Menu.png",
                   "A Level Coursework",
@@ -117,9 +149,11 @@ const getProjects = () => {
                     <br/><br/>If I had more time on this project I would have stored all the information on an external database rather than within text files on the user's 
                     computer. The time limitation meant that the comparisons with other users was quite limited and every time the user was on a new computer their 
                     information would have to be re-entered into the system. <br/><br/>If this was a larger scale project then the larger aims could've been accomplished.<br/><br/> 
-                    I have achieved a provisional grade A* for this project, and the code can be found on my 
-                    <a href="https://github.com/jaketbailey/alevel-coursework" target="_blank"> GitHub</a>.
-                  `),
+                    I have achieved a provisional grade A* for this project.
+                  `,
+                  null,
+                  "https://github.com/jaketbailey/alevel-coursework",
+                  ),
                   new Project(
                     "/images/LEJOG.webp",
                     "LEJOG 2016",
@@ -144,6 +178,8 @@ const getProjects = () => {
         title={project.title}
         description={project.description}
         content={project.content}
+        link={project.link}
+        github={project.github}
       />
     );
   });
