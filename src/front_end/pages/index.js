@@ -7,7 +7,7 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <html data-bs-theme="dark">
+    <html>
       <div>
           <Head>
             <title>Jake Bailey</title>

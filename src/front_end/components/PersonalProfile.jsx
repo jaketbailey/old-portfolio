@@ -1,41 +1,42 @@
 import SkillCard from "./sub-components/SkillCard.jsx"
 
-class Skill {
-  constructor(name, src, link) {
-    this.name = name;
-    this.src = src;
-    this.link = link;
-  }
-}
-
-const getSkills = () => {
-  const skills = [
-    new Skill("React.js", "https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/react-512.png", "https://reactjs.org/"),
-    new Skill("Javascript", "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3209724/language-javascript-icon-md.png", "https://www.javascript.com/"),
-    new Skill("HTML5/CSS", "https://cdn.iconscout.com/icon/free/png-256/html5-2474813-2056052.png", "https://developer.mozilla.org/en-US/docs/Glossary/HTML5"),
-    new Skill("Node.js", "http://cdn.onlinewebfonts.com/svg/img_189697.png", "https://nodejs.org/en/"),
-    new Skill("Go", "https://img.icons8.com/ios-filled/512/golang.png", "https://golang.org/"),
-    new Skill("PostgreSQL", "https://icons-for-free.com/download-icon-postgresql-1324440215994540667_512.icns", "https://www.postgresql.org/"),
-    new Skill("Vue.js", "https://icons-for-free.com/download-icon-bxl+vuejs-1325051940816489463_512.png", "https://vuejs.org/"),
-    new Skill("Express.js", "/images/expressjs.png", "https://expressjs.com/"),
-    new Skill("MATLAB", "https://user-images.githubusercontent.com/10817626/67014544-482be200-f0f5-11e9-8e74-3dd575c8ad83.png", "https://www.mathworks.com/products/matlab.html"),
-    new Skill("Python", "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Python_icon_%28black_and_white%29.svg/1200px-Python_icon_%28black_and_white%29.svg.png", "https://www.python.org/"),
-    new Skill("Git", "https://git-scm.com/images/logos/downloads/Git-Icon-Black.png", "https://git-scm.com/"),
-  ]
-
-  return skills.map(skill => {
-    return (
-      <SkillCard
-        skillName={skill.name}
-        src={skill.src}
-        link={skill.link}
-      />
-    )
-  })
-
-}
 
 export default function PersonalProfile() {
+  class Skill {
+    constructor(name, src, link) {
+      this.name = name;
+      this.src = src;
+      this.link = link;
+    }
+  }
+  
+  const getSkills = () => {
+    const skills = [
+      new Skill("React.js", "https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/react-512.png", "https://reactjs.org/"),
+      new Skill("Javascript", "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3209724/language-javascript-icon-md.png", "https://www.javascript.com/"),
+      new Skill("HTML5/CSS", "https://cdn.iconscout.com/icon/free/png-256/html5-2474813-2056052.png", "https://developer.mozilla.org/en-US/docs/Glossary/HTML5"),
+      new Skill("Node.js", "http://cdn.onlinewebfonts.com/svg/img_189697.png", "https://nodejs.org/en/"),
+      new Skill("Go", "https://img.icons8.com/ios-filled/512/golang.png", "https://golang.org/"),
+      new Skill("PostgreSQL", "https://icons-for-free.com/download-icon-postgresql-1324440215994540667_512.icns", "https://www.postgresql.org/"),
+      new Skill("Vue.js", "https://icons-for-free.com/download-icon-bxl+vuejs-1325051940816489463_512.png", "https://vuejs.org/"),
+      new Skill("Express.js", "/images/expressjs.png", "https://expressjs.com/"),
+      new Skill("MATLAB", "https://user-images.githubusercontent.com/10817626/67014544-482be200-f0f5-11e9-8e74-3dd575c8ad83.png", "https://www.mathworks.com/products/matlab.html"),
+      new Skill("Python", "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Python_icon_%28black_and_white%29.svg/1200px-Python_icon_%28black_and_white%29.svg.png", "https://www.python.org/"),
+      new Skill("Git", "https://git-scm.com/images/logos/downloads/Git-Icon-Black.png", "https://git-scm.com/"),
+    ]
+  
+    return skills.map(skill => {
+      return (
+        <SkillCard
+          skillName={skill.name}
+          src={skill.src}
+          link={skill.link}
+        />
+      )
+    })
+  
+  }
+
   return (
     <div id="personal-profile" class="container">
       <h2 class="pt-5 pb-2"> Personal Profile </h2>
@@ -115,7 +116,8 @@ export default function PersonalProfile() {
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingTwelve">
                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="true" aria-controls="collapseTwelve">
-                  Placement position at BAE Systems
+                    <img src="/images/bae-systems-2.webp" class="m-1" width={"55rem"} alt="BAE Systems Logo" />
+                    Placement position at BAE Systems
                   </button>
                 </h2>
                 <div id="collapseTwelve" class="accordion-collapse collapse show" aria-labelledby="headingTwelve" data-bs-parent="#accordionExample">
@@ -128,7 +130,8 @@ export default function PersonalProfile() {
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingThirteen">
                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="true" aria-controls="collapseThirteen">
-                  First and Second Year University
+                    <img src="/images/uop.webp" class="m-1" width={"55rem"} alt="UOP Logo" />
+                    First and Second Year University
                   </button>
                 </h2>
                 <div id="collapseThirteen" class="accordion-collapse collapse show" aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
@@ -141,6 +144,7 @@ export default function PersonalProfile() {
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingFour">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <img src="/images/NSCG.webp" class="m-1" width={"55rem"} alt="BAE Systems Logo" />
                     A Levels at NSCG Stafford College
                   </button>
                 </h2>
@@ -153,6 +157,7 @@ export default function PersonalProfile() {
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingFive">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    <img src="/images/ABRSM.webp" class="m-1" width={"55rem"} alt="BAE Systems Logo" />
                     Piano, Saxophone and Music Theory
                   </button>
                 </h2>
@@ -164,10 +169,6 @@ export default function PersonalProfile() {
               </div>
             </div>
             </div>
-        {/* <div class="col col-sm-12 col-md-12 col-lg-6 mt-3"> */}
-          
-        {/* </div> */}
-      {/* <div class="col col-sm-12 col-md-12 col-lg-6 mt-3">  */}
         <h3 class="pt-5">Work Experience</h3>
             <div class="accordion pt-2" id="accordion3">
               <div class="accordion-item">
@@ -182,6 +183,8 @@ export default function PersonalProfile() {
                     <strong>June 2022 - Present</strong><br/>
                     <ul class="list-group pt-2">
                       <li class="list-group-item">Developing an analyst tool using MATLAB</li>
+                      <li class="list-group-item">Leading a Rapid Application Development project</li>
+                      <li class="list-group-item">Back-end and database development with MySQL and Django</li>
                       <li class="list-group-item">Working with Javascript web frameworks such as Vue</li>
                       <li class="list-group-item">Agile Software Development utilising the Atlassian Suite</li>
                       <li class="list-group-item">Understanding client needs and requirements</li>
@@ -192,7 +195,7 @@ export default function PersonalProfile() {
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingSeven">
                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
-                    <img src="/images/ocn.webp" class="m-1" width={"55rem"} alt="BAE Systems Logo" />
+                    <img src="/images/ocn.webp" class="m-1" width={"55rem"} alt="OCN Logo" />
                     Freelance work for Open College Network West Midlands
                   </button>
                 </h2>
@@ -212,7 +215,7 @@ export default function PersonalProfile() {
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingEight">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
-                    <img src="/images/costa.webp" class="m-1" width={"55rem"} alt="BAE Systems Logo" />
+                    <img src="/images/costa.webp" class="m-1" width={"55rem"} alt="Costa Logo" />
                     Barista at Costa Coffee UK&I
                   </button>
                 </h2>
@@ -235,7 +238,7 @@ export default function PersonalProfile() {
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingNine">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
-                    <img src="/images/blokes.webp" class="m-1" width={"55rem"} alt="BAE Systems Logo" />
+                    <img src="/images/blokes.webp" class="m-1" width={"55rem"} alt="Blokes Logo" />
                     Saturday Worker at All Blokes Ltd
                   </button>
                 </h2>
@@ -255,7 +258,7 @@ export default function PersonalProfile() {
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingTen">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
-                    <img src="/images/global.webp" class="m-1" width={"55rem"} alt="BAE Systems Logo" />
+                    <img src="/images/global.webp" class="m-1" width={"55rem"} alt="Global Logo" />
                     IT Support Work Experience at Global
                   </button>
                 </h2>
@@ -269,7 +272,7 @@ export default function PersonalProfile() {
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingEleven">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
-                    <img src="/images/cm.webp" class="m-1" width={"55rem"} alt="BAE Systems Logo" />
+                    <img src="/images/cm.webp" class="m-1" width={"55rem"} alt="Credit Management Logo" />
                     Bespoke PC Building at Credit Management Ltd
                   </button>
                 </h2>
