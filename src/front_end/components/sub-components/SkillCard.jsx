@@ -1,7 +1,14 @@
 
 export default function SkillCard (props) {
+
+  let hide = "";
+
+  if (props.hide === true) {
+    hide = "hide ";
+  }
+
   return (
-    <div className ="custom">
+    <div className ={hide + "custom"}>
       <a className ="skill-link" href={props.link} target="_blank">
         <div className ="card skill-card">
           <div className ="card-body-skill">

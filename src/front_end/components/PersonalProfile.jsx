@@ -3,13 +3,14 @@ import SkillCard from "./sub-components/SkillCard.jsx"
 
 export default function PersonalProfile() {
   class Skill {
-    constructor(name, src, link) {
+    constructor(name, src, link, hide = false) {
       this.name = name;
       this.src = src;
       this.link = link;
+      this.hide = hide;
     }
   }
-    
+
     const getSkills = () => {
     const mathworksLogo = "https://user-images.githubusercontent.com/10817626/67014544-482be200-f0f5-11e9-8e74-3dd575c8ad83.png"
     
@@ -25,10 +26,10 @@ export default function PersonalProfile() {
       new Skill("MATLAB", mathworksLogo, "https://www.mathworks.com/products/matlab.html"),
       new Skill("Python", "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Python_icon_%28black_and_white%29.svg/1200px-Python_icon_%28black_and_white%29.svg.png", "https://www.python.org/"),
       new Skill("Git", "https://git-scm.com/images/logos/downloads/Git-Icon-Black.png", "https://git-scm.com/"),
-      new Skill("Simulink Model Management and Architecture", mathworksLogo, "https://matlabacademy.mathworks.com/progress/instructorled/share/certificate.html?id=30c7d4fb-0f44-47d0-9f21-ece0bfceaddb&"),
-      new Skill("Matlab Programming Techniques", mathworksLogo, "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=7cefce18-a9fe-49c2-9d82-79741c343bfe&"),
-      new Skill("MATLAB Fundamentals", mathworksLogo, "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=d167b7b2-1a23-4419-bb93-fc1641f38e85&&"),
-      new Skill("Matlab Onramp", mathworksLogo, "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=b9552bb3-61f6-4d08-97d3-a4b95a672824&"),
+      new Skill("Simulink Model Management and Architecture", mathworksLogo, "https://matlabacademy.mathworks.com/progress/instructorled/share/certificate.html?id=30c7d4fb-0f44-47d0-9f21-ece0bfceaddb&", true),
+      new Skill("Matlab Programming Techniques", mathworksLogo, "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=7cefce18-a9fe-49c2-9d82-79741c343bfe&", true),
+      new Skill("MATLAB Fundamentals", mathworksLogo, "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=d167b7b2-1a23-4419-bb93-fc1641f38e85&&", true),
+      new Skill("Matlab Onramp", mathworksLogo, "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=b9552bb3-61f6-4d08-97d3-a4b95a672824&", true),
     ]
   
     return skills.map(skill => {
@@ -37,6 +38,7 @@ export default function PersonalProfile() {
           skillName={skill.name}
           src={skill.src}
           link={skill.link}
+          hide={skill.hide}
         />
       )
     })
@@ -181,12 +183,12 @@ export default function PersonalProfile() {
                 <h2 class="accordion-header" id="headingSix">
                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
                     <img src="/images/bae-systems-2.webp" class="m-1" width={"55rem"} alt="BAE Systems Logo" />
-                    Placement Software Engineer at BAE Systems
+                    Placement Combat Systems Software Engineer at BAE Systems Maritime Naval Ships
                   </button>
                 </h2>
                 <div id="collapseSix" class="accordion-collapse collapse show" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    <strong>June 2022 - Present</strong><br/>
+                    <strong>June 2022 - June 2023</strong><br/>
                     <ul class="list-group pt-2">
                       <li class="list-group-item">Developing an analyst tool using MATLAB</li>
                       <li class="list-group-item">Leading a Rapid Application Development project</li>
@@ -227,7 +229,7 @@ export default function PersonalProfile() {
                 </h2>
                 <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    <strong>November 2019 - June 2022</strong><br/>
+                    <strong>November 2019 - June 2022, June 2023 - Present</strong><br/>
                     <ul class="list-group pt-2">
                     Customer facing role involving:
                       <li class="list-group-item">Experience working within a fast paced, customer facing role</li>

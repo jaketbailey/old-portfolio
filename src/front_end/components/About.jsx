@@ -9,10 +9,10 @@ export default function About() {
         <div class="col align-self-center col col-sm-12 col-md-12 col-lg-6 pt-5">
           <h2> About Me </h2>
             <p>
-              I am an outgoing and self-motivated student and employee. In June, I started my industrial placement as a Naval Ships Software Engineer at BAE Systems working with technologies such as Vue.js and MATLAB.
+              I am an outgoing and self-motivated student and employee. I have recently completed my industrial placement as a Combat Systems Software Engineer at BAE Systems Maritime Naval Ships working with technologies such as Vue.js, MATLAB, Django and React.js.
             </p>
             <p>
-              I am currently studying for a BSc(Hons) in Software Engineering at the University of Portsmouth, in my 3rd (Placement Year) of my 4 year course.
+              In September, I be heading back to university to continue studying for my 4th (Final-Year) of my BSc(Hons) in Software Engineering at the University of Portsmouth.
             </p>
             <p>
               Outside of work, I redeveloped my Portfolio site using Next.js, Bootstrap and Express.js, further developing my current skills within web development.

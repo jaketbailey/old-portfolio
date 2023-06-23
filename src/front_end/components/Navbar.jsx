@@ -26,7 +26,7 @@ export default function Navbar () {
           </li>
         </ul>
         <span class="navbar-text me-4">
-          Placement Software Engineer at BAE Systems
+          BSc(Hons) Software Engineering Student at the University of Portsmouth
         </span>
         <a class="me-3 nav-item" href="https://www.linkedin.com/in/jaketbailey/" target="_blank">
               <img alt="LinkedIn" src="/images/linkedin.webp" height="25px" width="25px" class="nav-link"/>
