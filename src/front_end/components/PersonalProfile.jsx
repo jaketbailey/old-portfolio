@@ -202,14 +202,14 @@ export default function PersonalProfile() {
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingPlacementGuide">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePlacementGuide" aria-expanded="false" aria-controls="collapsePlacementGuide">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePlacementGuide" aria-expanded="true" aria-controls="collapsePlacementGuide">
                     <img src="/images/uop.webp" class="m-1" width={"55rem"} alt="University of Portsmouth Logo" />
                     Faculty/Placement and Employability Guide at the University of Portsmouth
                   </button>
                 </h2>
                 <div id="collapsePlacementGuide" class="accordion-collapse collapse show" aria-labelledby="headingPlacementGuide" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    <strong>June 2022 - June 2023</strong><br/>
+                    <strong>August 2023 - Present</strong><br/>
                     <ul class="list-group pt-2">
                       <li class="list-group-item">Providing information and support for visitors to the University and departmental Open Days, HE Fairs and other events.</li>
                       <li class="list-group-item">Providing tours and showing visitors to rooms and buildings as required during such events</li>
@@ -220,12 +220,12 @@ export default function PersonalProfile() {
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingSeven">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                     <img src="/images/ocn.webp" class="m-1" width={"55rem"} alt="OCN Logo" />
                     Freelance work for Open College Network West Midlands
                   </button>
                 </h2>
-                <div id="collapseSeven" class="accordion-collapse collapse show" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
                     <strong>August 2021 - June 2022</strong><br/>
                     <ul class="list-group pt-2">
