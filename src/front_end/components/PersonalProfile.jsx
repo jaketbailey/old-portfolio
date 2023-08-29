@@ -220,7 +220,7 @@ export default function PersonalProfile() {
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingSeven">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="falseg" aria-controls="collapseSeven">
                     <img src="/images/ocn.webp" class="m-1" width={"55rem"} alt="OCN Logo" />
                     Freelance work for Open College Network West Midlands
                   </button>
