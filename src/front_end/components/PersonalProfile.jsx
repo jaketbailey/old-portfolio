@@ -119,7 +119,7 @@ export default function PersonalProfile() {
             </div>
           </div>
           <div class="flex-column col-sm-12 col-md-6 col-lg-6">
-            <h3>Achievements</h3>
+            <h3>AchievemeAchievementsnts</h3>
             <div class="accordion pt-2" id="accordion2">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingTwelve">
@@ -196,6 +196,24 @@ export default function PersonalProfile() {
                       <li class="list-group-item">Working with Javascript web frameworks such as Vue</li>
                       <li class="list-group-item">Agile Software Development utilising the Atlassian Suite</li>
                       <li class="list-group-item">Understanding client needs and requirements</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingPlacementGuide">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePlacementGuide" aria-expanded="false" aria-controls="collapsePlacementGuide">
+                    <img src="/images/uop.webp" class="m-1" width={"55rem"} alt="University of Portsmouth Logo" />
+                    Faculty/Placement and Employability Guide at the University of Portsmouth
+                  </button>
+                </h2>
+                <div id="collapsePlacementGuide" class="accordion-collapse collapse show" aria-labelledby="headingPlacementGuide" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>June 2022 - June 2023</strong><br/>
+                    <ul class="list-group pt-2">
+                      <li class="list-group-item">Providing information and support for visitors to the University and departmental Open Days, HE Fairs and other events.</li>
+                      <li class="list-group-item">Providing tours and showing visitors to rooms and buildings as required during such events</li>
+                      <li class="list-group-item">Participating in question and answer sessions in relation to the Faculty, the Course, and the Year in Industry</li>
                     </ul>
                   </div>
                 </div>
