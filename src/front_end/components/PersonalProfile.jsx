@@ -119,7 +119,7 @@ export default function PersonalProfile() {
             </div>
           </div>
           <div class="flex-column col-sm-12 col-md-6 col-lg-6">
-            <h3>AchievemeAchievementsnts</h3>
+            <h3>Achievementsnts</h3>
             <div class="accordion pt-2" id="accordion2">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingTwelve">
@@ -220,7 +220,7 @@ export default function PersonalProfile() {
               </div>
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingSeven">
-                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                     <img src="/images/ocn.webp" class="m-1" width={"55rem"} alt="OCN Logo" />
                     Freelance work for Open College Network West Midlands
                   </button>
