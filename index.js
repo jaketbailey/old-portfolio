@@ -23,6 +23,8 @@ function init() {
   })
 }
 
+init();
+
 module.exports = {
   App: server,
   Init: init,
