@@ -119,7 +119,7 @@ export default function PersonalProfile() {
             </div>
           </div>
           <div class="flex-column col-sm-12 col-md-6 col-lg-6">
-            <h3>Achievementsnts</h3>
+            <h3>Achievements</h3>
             <div class="accordion pt-2" id="accordion2">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="headingTwelve">
