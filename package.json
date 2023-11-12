@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "nodemon ./index.js"
+    "start": "node ./index.js"
   },
   "dependencies": {
     "bootstrap": "^5.2.1",
